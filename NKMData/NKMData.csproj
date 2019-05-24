@@ -7,5 +7,6 @@
       <HintPath>Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <None Include="database.db" CopyToOutputDirectory="Always" />
+    <None Include="HexMaps/**" CopyToOutputDirectory="Always" LinkBase="HexMaps/" />
   </ItemGroup>
 </Project>

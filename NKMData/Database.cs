@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using Mono.Data.Sqlite;
@@ -8,8 +7,6 @@ namespace NKMData
 {
     public static class Database
     {
-//        private static readonly string AssemblyPath = new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath;
-//        private static readonly string AssemblyDir = Path.GetDirectoryName(AssemblyPath); 
         private static readonly IDbConnection Connection = new SqliteConnection($"Data source=database.db");
 
         private static List<SqliteRow> Select(string query)
