@@ -1,16 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>NKMData</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.3</Version>
     <Authors>tojatos</Authors>
     <Company>Tosware</Company>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Mono.Data.Sqlite, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
-      <HintPath>Mono.Data.Sqlite.dll</HintPath>
-    </Reference>
     <None Include="database.db" CopyToOutputDirectory="Always" />
     <None Include="HexMaps/**" CopyToOutputDirectory="Always" LinkBase="HexMaps/" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.110" />
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
 </Project>

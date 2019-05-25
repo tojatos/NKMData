@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Data;
+using System.Data.SQLite;
 using System.Linq;
-using Mono.Data.Sqlite;
 
 namespace NKMData
 {
     public static class Database
     {
-        private static readonly IDbConnection Connection = new SqliteConnection($"Data source=database.db");
+        private static readonly IDbConnection Connection = new SQLiteConnection($"Data source=database.db");
+        
 
         private static List<SqliteRow> Select(string query)
         {
