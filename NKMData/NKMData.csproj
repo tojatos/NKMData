@@ -1,5 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>NKMData</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>tojatos</Authors>
+    <Company>Tosware</Company>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
