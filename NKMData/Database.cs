@@ -1,14 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
+using System.IO;
 using System.Linq;
 
 namespace NKMData
 {
     public static class Database
     {
-        private static readonly IDbConnection Connection = new SQLiteConnection($"Data source=database.db");
-        
+        private static string DatabasePath => Path.Combine(Program.DataPath + "database.db");
+
+        private static IDbConnection _connection;
+
+        private static IDbConnection Connection => _connection ?? (_connection = new SQLiteConnection($"Data source={DatabasePath}"));
 
         private static List<SqliteRow> Select(string query)
         {
