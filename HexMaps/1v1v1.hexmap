@@ -46,8 +46,8 @@
 6:1;Wall
 7:1;Wall
 8:1;Wall
-9:1;SpawnPoint3
-10:1;SpawnPoint3
+9:1;SpawnPoint2
+10:1;SpawnPoint2
 11:1;Normal
 12:1;Normal
 13:1;Normal
@@ -83,8 +83,8 @@
 5:2;Wall
 6:2;Wall
 7:2;Wall
-8:2;SpawnPoint3
-9:2;SpawnPoint3
+8:2;SpawnPoint2
+9:2;SpawnPoint2
 10:2;Normal
 11:2;Wall
 12:2;Wall
@@ -663,7 +663,7 @@
 23:17;Normal
 24:17;Normal
 25:17;Normal
-26:17;SpawnPoint2
+26:17;SpawnPoint1
 27:17;Wall
 28:17;Wall
 -9:18;Wall
@@ -700,8 +700,8 @@
 22:18;Normal
 23:18;Normal
 24:18;Normal
-25:18;SpawnPoint2
-26:18;SpawnPoint2
+25:18;SpawnPoint1
+26:18;SpawnPoint1
 27:18;Wall
 -9:19;Wall
 -8:19;Normal
@@ -737,7 +737,7 @@
 22:19;Normal
 23:19;Normal
 24:19;Normal
-25:19;SpawnPoint2
+25:19;SpawnPoint1
 26:19;Wall
 27:19;Wall
 -10:20;Wall
@@ -1267,8 +1267,8 @@
 -11:34;Wall
 -10:34;Wall
 -9:34;Wall
--8:34;SpawnPoint1
--7:34;SpawnPoint1
+-8:34;SpawnPoint0
+-7:34;SpawnPoint0
 -6:34;Normal
 -5:34;Wall
 -4:34;Wall
@@ -1304,8 +1304,8 @@
 -11:35;Wall
 -10:35;Wall
 -9:35;Wall
--8:35;SpawnPoint1
--7:35;SpawnPoint1
+-8:35;SpawnPoint0
+-7:35;SpawnPoint0
 -6:35;Normal
 -5:35;Normal
 -4:35;Normal
@@ -1369,5 +1369,3 @@
 16:36;Wall
 17:36;Wall
 18:36;Wall
-
-SpawnPoint1;SpawnPoint2;SpawnPoint3
